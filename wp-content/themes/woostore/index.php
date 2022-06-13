@@ -1,6 +1,6 @@
 <?php get_header(); ?>
     <!-- Featured Start -->
-    <div class="container-fluid pt-5">
+    <div class="container glo-container pt-5">
         <div class="row px-xl-5 pb-3">
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
@@ -32,7 +32,7 @@
 
 
     <!-- Categories Start -->
-    <div class="container-fluid pt-5">
+    <div class="container glo-container pt-5">
         <div class="row px-xl-5 pb-3">
             <div class="col-lg-4 col-md-6 pb-1">
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
@@ -94,7 +94,7 @@
 
 
     <!-- Offer Start -->
-    <div class="container-fluid offer pt-5">
+    <div class="container glo-container offer pt-5">
         <div class="row px-xl-5">
             <div class="col-md-6 pb-4">
                 <div class="position-relative bg-secondary text-center text-md-right text-white mb-2 py-5 px-5">
@@ -122,7 +122,7 @@
 
 
     <!-- Products Start -->
-    <div class="container-fluid pt-5">
+    <div class="container glo-container pt-5">
         <div class="text-center mb-4">
             <h2 class="section-title px-5"><span class="px-2">Trandy Products</span></h2>
         </div>
@@ -269,7 +269,7 @@
 
 
     <!-- Subscribe Start -->
-    <div class="container-fluid bg-secondary my-5">
+    <div class="container glo-container bg-secondary my-5">
         <div class="row justify-content-md-center py-5 px-xl-5">
             <div class="col-md-6 col-12 py-5">
                 <div class="text-center mb-2 pb-2">
@@ -291,7 +291,7 @@
 
 
     <!-- Products Start -->
-    <div class="container-fluid pt-5">
+    <div class="container glo-container pt-5">
         <div class="text-center mb-4">
             <h2 class="section-title px-5"><span class="px-2">Just Arrived</span></h2>
         </div>
@@ -438,7 +438,7 @@
 
 
     <!-- Vendor Start -->
-    <div class="container-fluid py-5">
+    <div class="container glo-container py-5">
         <div class="row px-xl-5">
             <div class="col">
                 <div class="owl-carousel vendor-carousel">
