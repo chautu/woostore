@@ -1,8 +1,74 @@
-.container{
-    width: 80%;
-    max-width: 80%;
+.container {
+  width: 80%;
+  max-width: 80%;
 }
-.container.glo-container{
-    width: 80%;
-    max-width: 80%;
+.container.glo-container {
+  width: 80%;
+  max-width: 80%;
 }
+
+/* header start */
+.header-top {
+  background: #96b416;
+  background-color: #96b416;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-style: solid;
+  border-color: #e1e1e1;
+}
+
+.text-while {
+  color: #fff;
+}
+
+.header-top-right {
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.header-button-cart {
+  color: #96b416;
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 25px;
+  padding: 8px 15px;
+}
+
+.header-content {
+  background-image: url("../../woostore/img/background.jpg");
+}
+
+.header-menu {
+  margin-top: 1rem;
+}
+
+.main-menu ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.main-menu ul li a {
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 10px 12px;
+  color: #1c1c1d;
+}
+
+.main-menu ul li a:hover,
+a:active {
+  color: #96b416;
+}
+
+.main-menu ul li a:active {
+  color: #96b416;
+}
+
+/* header end */
