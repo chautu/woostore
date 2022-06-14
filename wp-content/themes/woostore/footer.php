@@ -95,6 +95,43 @@
 
    <!-- Template Javascript -->
    <script src="<?php bloginfo('stylesheet_directory'); ?>/js/main.js"></script>
+
+   <!-- Swiper JS -->
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+   <script>
+        var swiper = new Swiper(".swiper", {
+            slidesPerView: 6,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            },
+            on: {
+                resize: function() {
+                    swiper.changeDirection(getDirection());
+                }
+            },
+            breakpoints: {
+                375: {
+                    slidesPerView: 1,
+                    slidesPerGroup: 1,
+                },
+                640: {
+                    slidesPerView: 1,
+                    slidesPerGroup: 1,
+                },
+                768: {
+                    slidesPerView: 1,
+                    slidesPerGroup: 1,
+                },
+                1024: {
+                    slidesPerView: 6
+                },
+            }
+        });
+   </script>
    </body>
 
    </html>

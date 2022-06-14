@@ -27,6 +27,8 @@
     <link href="<?php bloginfo('stylesheet_directory'); ?>/css/style.css" rel="stylesheet">
 
     <link href="<?php bloginfo('stylesheet_directory'); ?>/css/child.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
 
 <body>
