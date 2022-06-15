@@ -74,11 +74,17 @@ a:active {
 /* header end */
 
 /*slider start */
-.swiper {
+.glo-container .swiper {
   width: 100%;
   height: 100%;
+  position: unset;
 }
-
+.glo-container .swiper .swiper-wrapper{
+    position: unset ;
+}
+.glo-swiper-container{
+    position: relative;
+}
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -96,14 +102,24 @@ a:active {
   -webkit-align-items: center;
   align-items: center;
 }
-
+.swiper-button-prev,.swiper-button-next{
+    color: black !important;
+    border: 1px solid #E1E1E1;
+    background-color: var(--et_white-2-dark); 
+    justify-content: center;
+    padding: 20px;
+    top: calc(50% + 1.5rem) !important;
+}
 .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
+.swiper-button-prev:after, 
+.swiper-button-next:after{
+    content:'' !important;
+}
 .glo-swiper-text {
   position: absolute;
   bottom: 20px;
@@ -119,3 +135,62 @@ a:active {
   position: relative;
 }
 /* slide end */
+
+/* content home  start*/
+
+img.thumnail.wp-post-image{
+    height: 250px;
+    width: 200px;
+    object-fit: contain;
+}
+.sale{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    line-height: 14px;
+    background: #ffc107;
+    border-radius: 50%;
+    padding-top: 6px;
+    z-index: 9;
+    right: 0;
+    top: 0;
+    font-size: 12px;
+}
+/* widget start */
+.glo-widget-position-relative{
+  position: relative;
+}
+.glo-widget-position-absolute{
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  padding: 60px 30px 60px 30px;
+}
+.glo-widget-text{
+  margin-bottom: 20px; 
+  font-size: 32px; 
+  font-weight: 600; 
+  line-height: 35px; 
+  font-family: Dosis;
+  color: black;
+}
+.glo-widget-text-span{
+  color: #000000; 
+  background-color: #02010100; 
+  font-size: 17px; 
+  font-weight: 300;
+}
+img.alignnone.size-full.wp-image-93{
+  border-radius: 10px;
+}
+.glo-widget-position-relative img{
+  transition:all .7s ease-in-out;
+}
+.glo-widget-position-relative:hover img{
+  opacity: 1;
+  transform:scale(1.15);
+  transition:all .7s ease-in-out;
+}
+/* widget end */
