@@ -1,4 +1,4 @@
- <?php
+<?php
     //support theme woocommerce
     function my_custom_wc_theme_support() {
         add_theme_support( 'woocommerce' );
@@ -19,6 +19,17 @@
 
         //xoa widget moi
         remove_theme_support('widgets-block-editor');
+
+        if (function_exists('register_sidebar')){
+            register_sidebar(array(
+                'name'=> 'Cột bên',
+                'id' => 'sidebar',
+                'before_widget' => '<div class="widget">',
+                'after_widget'  => '</div>',
+                'before_title'  => '<h3> <i class="fa fa-bars"></i>',
+                'after_title'   => '</h3>',
+            ));
+        }
         
     }
     add_action('init', 'initTheme');
@@ -63,3 +74,10 @@
      
     }
     add_action('init', 'slider_post_type');
+
+//tính giá sale
+function percentSale($price, $price_sale){
+    $sale =  ($price_sale*100)/$price;
+    $percent = 100% - $sale;
+    return number_format($percent, 1);
+}
