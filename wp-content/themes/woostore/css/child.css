@@ -345,14 +345,9 @@ form.woocommerce-ordering {
 .glo-container .swiper {
   width: 100%;
   height: 100%;
-  position: unset;
 }
-.glo-container .swiper .swiper-wrapper {
-  position: unset;
-}
-.glo-swiper-container {
-  position: relative;
-}
+
+
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -377,7 +372,6 @@ form.woocommerce-ordering {
   background-color: var(--et_white-2-dark);
   justify-content: center;
   padding: 20px;
-  top: calc(50% + 1.5rem) !important;
 }
 .swiper-slide img {
   display: block;
@@ -544,6 +538,10 @@ ul.nav.nav-tabs {
   text-transform: none;
   line-height: 1.3em;
 }
+a.nav-link{
+  color: black;
+}
+
 /* product end */
 /* cart start */
 label.screen-reader-text {
@@ -580,6 +578,10 @@ table.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents {
   text-align: end;
 }
 .cart_totals h2:after {
+  content: unset;
+  border: unset;
+}
+.cart_totals h2:before {
   content: unset;
   border: unset;
 }
@@ -626,4 +628,71 @@ abbr.required {
   text-decoration: none;
   color: red;
 }
+ul.wc_payment_methods.payment_methods.methods li {
+  list-style-type: none;
+}
+div#payment {
+  margin-top: 10px;
+}
+
+ul.wc_payment_methods.payment_methods.methods {
+  padding: 0px;
+}
+
+p#mailpoet_woocommerce_checkout_optin_field {
+  margin: 0px;
+}
+
+.form-row.place-order {
+  margin: 0px;
+}
 /* thanh toan end */
+/* banner start */
+.row.glo-server {
+  width: 100%;
+}
+
+.glo-barner-server-icon {
+  color: #F69946;
+  font-size:50px;
+}
+
+.glo-barner-server {
+  width: calc( 100% - 80px);
+  padding-left: 10px;
+}
+p.glo-barner-server-title {
+  font-family: "Dosis", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 22px;
+  color: #96B416;
+  margin-bottom: 0;
+}
+p.glo-barner-server-text {
+  font-family: "Inter", Sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 18px;
+  color: #555555;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+.row.m-0.glo-server {
+  padding: 35px 50px 35px 50px;
+  background: #F9F9F9;
+  
+}
+.border-bottom{
+  border-bottom: 1px solid #edededed;
+}
+.glo-border-radius-bottom{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.glo-border-radius-top{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/* banner end */
