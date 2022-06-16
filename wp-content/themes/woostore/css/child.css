@@ -6,7 +6,13 @@
   width: 80%;
   max-width: 80%;
 }
-
+.glo-button {
+  background: #96b416;
+  color: #fff;
+  padding: 8px 15px;
+  border: 1px solid #96b416;
+  border-radius: 25px;
+}
 /* header start */
 .header-top {
   background: #96b416;
@@ -331,3 +337,85 @@ img.alignnone.size-full.wp-image-93 {
   transition: all 0.7s ease-in-out;
 }
 /* widget end */
+/* product strart */
+.glo-h2-title {
+  color: #222222;
+  font-family: "Dosis", Sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+h2:before {
+  content: "";
+  width: 300px;
+  height: 5px;
+  border-top: var(--line-height, 1px) var(--line-style, solid)
+    var(--line-color, #e1e1e1);
+  border-bottom: var(--line-height, 1px) var(--line-style, solid)
+    var(--line-color, #e1e1e1);
+  -webkit-box-flex: 1;
+  flex: 1;
+  display: inline-block;
+  margin-right: var(--line-space, 15px);
+}
+h2:after {
+  content: "";
+  width: 300px;
+  height: 5px;
+  border-top: var(--line-height, 1px) var(--line-style, solid)
+    var(--line-color, #e1e1e1);
+  border-bottom: var(--line-height, 1px) var(--line-style, solid)
+    var(--line-color, #e1e1e1);
+  -webkit-box-flex: 1;
+  flex: 1;
+  display: inline-block;
+  margin-left: var(--line-space, 15px);
+}
+.glo-text-center {
+  text-align: center;
+}
+.glo-text-tile {
+  color: #f69946;
+  font-family: "Inter", Sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.7em;
+  border-radius: 4px;
+  background-color: #f6994633;
+  padding: 5px;
+}
+ul.nav.nav-tabs {
+  justify-content: center;
+}
+.nav-tabs {
+  border-bottom: unset;
+}
+.nav-tabs .nav-link.active {
+  background-color: #96b416;
+  color: white;
+  font-family: "Dosis", Sans-serif;
+  font-size: 16px;
+  padding: 12px;
+  border-radius: 70px;
+}
+.nav-tabs .nav-link:hover {
+  border-color: white;
+}
+.glo-banner {
+  padding: 75px 0px 70px 70px;
+  width: 50%;
+}
+.glo-banner-img {
+  border-radius: 10px;
+}
+.glo-banner-text {
+  color: #ffffff;
+  font-family: "Inter", Sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: none;
+  line-height: 1.3em;
+}
+/* product end */

@@ -1,0 +1,24 @@
+2022-06-16T02:23:46+00:00 CRITICAL Uncaught Error: Call to undefined function setpostview() in C:\xampp\htdocs\woostore\wp-content\themes\woostore\page.php:9
+Stack trace:
+#0 C:\xampp\htdocs\woostore\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\woostore\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\woostore\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\woostore\wp-content\themes\woostore\page.php on line 9
+
+2022-06-16T02:24:41+00:00 CRITICAL Uncaught Error: Call to undefined function setpostview() in C:\xampp\htdocs\woostore\wp-content\themes\woostore\page.php:9
+Stack trace:
+#0 C:\xampp\htdocs\woostore\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\woostore\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\woostore\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\woostore\wp-content\themes\woostore\page.php on line 9
+
+2022-06-16T02:24:58+00:00 CRITICAL Uncaught Error: Call to undefined function setpostview() in C:\xampp\htdocs\woostore\wp-content\themes\woostore\page.php:9
+Stack trace:
+#0 C:\xampp\htdocs\woostore\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\woostore\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\woostore\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\woostore\wp-content\themes\woostore\page.php on line 9
+

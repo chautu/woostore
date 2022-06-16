@@ -29,7 +29,7 @@ define( 'DB_USER', 'woostore' );
 define( 'DB_PASSWORD', '123456789' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', '192.168.1.114' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );

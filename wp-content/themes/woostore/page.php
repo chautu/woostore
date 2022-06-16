@@ -6,7 +6,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9">
                     <?php if (have_posts()) : ?>
                     <?php while (have_posts()) : the_post(); ?>
-                    
+                    <?php setpostview(get_the_ID()); ?>
                     <h1 class="glo-single-title"> <?php the_title(); ?> </h1>
                     <div class="glo-single-content">
                         <?php the_content(); ?>

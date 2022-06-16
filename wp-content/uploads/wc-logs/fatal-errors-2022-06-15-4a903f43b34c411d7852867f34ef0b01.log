@@ -1,0 +1,18 @@
+2022-06-15T04:13:11+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\woostore\wp-content\themes\woostore\sidebar.php:36
+Stack trace:
+#0 C:\xampp\htdocs\woostore\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\woostore\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\woostore\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\woostore\wp-content\themes\woostore\header.php(82): get_sidebar()
+#4 C:\xampp\htdocs\woostore\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\woostore\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\woostore\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\woostore\wp-content\themes\woostore\index.php(1): get_header()
+#8 C:\xampp\htdocs\woostore\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\woostore\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\woostore\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\woostore\wp-content\themes\woostore\sidebar.php on line 36
+
+2022-06-15T07:17:14+00:00 CRITICAL syntax error, unexpected token "===", expecting end of file in C:\xampp\htdocs\woostore\wp-content\themes\woostore\functions.php on line 94
+
