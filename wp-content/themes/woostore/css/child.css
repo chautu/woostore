@@ -419,3 +419,34 @@ ul.nav.nav-tabs {
   line-height: 1.3em;
 }
 /* product end */
+/* cart start */
+label.screen-reader-text {
+  display: none;
+}
+
+img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail {
+  width: 100px;
+  height: 100px;
+}
+
+td.product-name {
+  padding: 10px;
+}
+
+td.product-price {
+  padding: 10px;
+}
+
+td.product-subtotal {}
+
+td.product-subtotal {
+  padding: 10px;
+}
+
+td.product-quantity .quantity input {
+  width: 50px;
+}
+table.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents {
+  width: 100%;
+}
+/* cart end */

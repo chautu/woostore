@@ -105,3 +105,8 @@ function percentSale($price, $price_sale){
     $percent = 100% - $sale;
     return number_format($percent, 1);
 }
+
+// function custom_remove_acction_woo(){
+//     remove_action('woocommerce_cart_collaterals','woocommerce_cart_totals',10);
+// }
+// add_action('init', 'custom_remove_acction_woo'); 
