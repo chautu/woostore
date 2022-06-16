@@ -34,8 +34,8 @@
 <body>
     <!-- Topbar Start -->
     <div class="header-top">
-        <div class="container glo-container">
-            <div class="row align-items-center py-3 px-xl-5">
+        <div class="container glo-container px-xl-5">
+            <div class="row align-items-center py-3">
                 <div class="col-lg-3 d-none d-lg-block header-logo">
                     <a href="<?php bloginfo('url'); ?>" class="text-decoration-none">
                         <img src="<?php bloginfo('stylesheet_directory'); ?>/img/Logo-retina.png"
@@ -75,16 +75,31 @@
     <!-- Topbar End -->
 
     <div class="header-under">
-        <div class="container">
-            <div class="row border-top px-xl-5 ">
-                <div class="col-lg-3 d-none d-lg-block sidebar-contain">
+        <div class="container px-xl-5">
+            <div class="row border-top  ">
+                <div class="col-lg-3 d-none d-lg-block">
                     <a class="btn shadow-none d-flex align-items-center justify-content-between text-white w-100"
-                        data-toggle="collapse" href="#navbar-vertical"
+                        data-toggle="collapse" href="#navbar-vertical" id="test-ca"
                         style="height: 65px; margin-top: -1px; padding: 0 30px;">
                         <h6 class="m-0">ALL DEPARTMENTS</h6>
                         <i class="fa fa-angle-down text-dark"></i>
                     </a>
-                    <!-- <?php get_template_part('menu-product'); ?> -->
+                    <nav class="collapse show navbar navbar-vertical navbar-light align-items-start p-0 border-top-0 border-bottom-0 sidebar-contain"
+                        id="navbar-vertical">
+                        <div class="navbar-nav w-100 overflow-hidden sidebar-nav" style="height: 630px;">
+                            <div class="menu-category">
+                                <?php wp_nav_menu( 
+                                    array( 
+                                        'theme_location' => 'category-product-menu', //id tạo menu
+                                        'container' => 'false', 
+                                        'menu_id' => 'category-product-menu', 
+                                        'menu_class' => 'category-product-menu',
+                                    ) 
+                                ); ?>
+                            </div>
+                        </div>
+                    </nav>
+
                 </div>
                 <div class="col-lg-9">
                     <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">

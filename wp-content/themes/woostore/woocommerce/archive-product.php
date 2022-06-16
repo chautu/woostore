@@ -19,10 +19,10 @@
 defined( 'ABSPATH' ) || exit;
 
 get_header( 'shop' ); ?>
-<div id="content">
+<div id="content" class="shop-content ">
     <div class="product-box category-product-page">
-        <div class="container">
-            <div class="row">
+        <div class="container glo-container glo-swiper-container px-xl-5">
+            <div class="row m-0">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 shop-title">
                     <?php
 					/**
@@ -54,16 +54,20 @@ get_header( 'shop' ); ?>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
-                    <div class="sidebar">
-                        <?php
-						/**
-						 * Hook: woocommerce_sidebar.
-						 *
-						 * @hooked woocommerce_get_sidebar - 10
-						 */
-						do_action( 'woocommerce_sidebar' ); 
-						?>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 shop-category-side">
+                    <div class="menu-category glo-shop-sidebar">
+                        <h3>Tất cả danh mục</h3>
+                        <?php wp_nav_menu( 
+							array( 
+								'theme_location' => 'category-product-menu', //id tạo menu
+								'container' => 'false', 
+								'menu_id' => 'category-product-menu', 
+								'menu_class' => 'category-product-menu',
+							) 
+						); ?>
+                    </div>
+                    <div class="shop-sidebar glo-shop-sidebar">
+                        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar-shop') ) : ?><?php endif; ?>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9">

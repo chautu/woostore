@@ -62,9 +62,9 @@
     function wplearning_widget_init()
     {
         register_sidebar(array(
-            'name'  => __('Trang chủ', 'text_domain'), // Ten sidebar hien thi trong admin
-            'id' => 'sidebar-home', // ID cua sidebar khong duoc trung, dung de hien thi SB
-            'description' => __('Thêm các widget *[Home] vào đây', 'text_domain'), // Mo ta cho SB nay
+            'name'  => __('Shop', 'text_domain'), // Ten sidebar hien thi trong admin
+            'id' => 'sidebar-shop', // ID cua sidebar khong duoc trung, dung de hien thi SB
+            'description' => __('Thêm các widget *[Shop] ở đây', 'text_domain'), // Mo ta cho SB nay
             'before_widget' => '<section id="%1$s" class="widget %2$s">', // Ban co the them Class cho SB vao day
             'after_widget'  => '</section>',
             'before_title'  => '<h2 class="widget-title">', // The mo de tao tieu de chung cho tat ca cac Widget nam trong Sidebar nay
