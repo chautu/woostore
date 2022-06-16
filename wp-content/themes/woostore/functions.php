@@ -116,7 +116,9 @@ function custom_override_checkout_fields( $fields ) {
     unset($fields['billing']['billing_company']);
 return $fields;
 }
-// function custom_remove_acction_woo(){
-//     remove_action('woocommerce_cart_collaterals','woocommerce_cart_totals',10);
+
+// add_action('woocommerce_before_main_content', 'add_image_head_product_list', 10);
+
+// function add_pagination_product(){
+//     echo '<img src="https://dlu.edu.vn/wp-content/uploads/2021/02/banner-bac-sau-dai-hox-scaled.jpg" alt="banner" />';
 // }
-// add_action('init', 'custom_remove_acction_woo'); 

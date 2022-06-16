@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<?php get_template_part('header-content'); ?>
 <!-- Featured Start -->
 <div class="container glo-container glo-swiper-container pt-5 px-xl-5">
     <div class="swiper mySwiper ">
@@ -169,11 +170,12 @@
 
 
                 </div>
-                <div class="glo-banner-img" style="background-image: url('<?php bloginfo('stylesheet_directory'); ?>/img/Banner.jpeg')">
-                     <div class="glo-banner">
+                <div class="glo-banner-img"
+                    style="background-image: url('<?php bloginfo('stylesheet_directory'); ?>/img/Banner.jpeg')">
+                    <div class="glo-banner">
                         <p class="glo-banner-text">Start your day with tasty organic veggies</p>
                         <button type="button" class="glo-button">Start Shopping Now!</button>
-                     </div>                                           
+                    </div>
                 </div>
             </div>
         </div>

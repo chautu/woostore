@@ -22,3 +22,19 @@ Stack trace:
 #3 {main}
   thrown in C:\xampp\htdocs\woostore\wp-content\themes\woostore\page.php on line 9
 
+2022-06-16T06:29:18+00:00 CRITICAL Uncaught Error: Call to undefined function getpostview() in C:\xampp\htdocs\woostore\wp-content\themes\woostore\single.php:14
+Stack trace:
+#0 C:\xampp\htdocs\woostore\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\woostore\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\woostore\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\woostore\wp-content\themes\woostore\single.php on line 14
+
+2022-06-16T06:31:48+00:00 CRITICAL Uncaught Error: Call to undefined function getpostview() in C:\xampp\htdocs\woostore\wp-content\themes\woostore\single.php:14
+Stack trace:
+#0 C:\xampp\htdocs\woostore\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\woostore\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\woostore\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\woostore\wp-content\themes\woostore\single.php on line 14
+

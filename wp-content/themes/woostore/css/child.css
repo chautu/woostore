@@ -14,6 +14,7 @@
   border-radius: 25px;
 }
 /* header start */
+
 .header-top {
   background: #96b416;
   background-color: #96b416;
@@ -93,6 +94,11 @@ textarea:active{
   font-weight: 800;
   font-size: 18px;
   text-transform: uppercase;
+}
+
+.header-logo a img {
+  width: 180px;
+  max-height: 35px;
 }
 
 .header-button-cart {
@@ -229,7 +235,7 @@ li.sidebar-category-li > img {
   border-width: 10px 10px 10px 10px;
   border-color: #ffffff;
   box-shadow: 0px 4px 12px 0px rgb(0 0 0 / 12%);
-  margin: 10px 10px 0px 10px;
+  margin: 10px 10px 10px 10px;
   border-radius: 10px 10px 10px 10px;
 }
 
@@ -269,6 +275,19 @@ li.sidebar-category-li > img {
 }
 
 /* header end */
+
+/* shop start */
+.category-product-page {
+  margin-top: 30px;
+}
+
+.shop-title {
+  margin-bottom: 30px;
+}
+.shop-title .content-area {
+  text-align: center;
+}
+/* shop end */
 
 /*slider start */
 .glo-container .swiper {
@@ -492,7 +511,8 @@ td.product-price {
   padding: 10px;
 }
 
-td.product-subtotal {}
+td.product-subtotal {
+}
 
 td.product-subtotal {
   padding: 10px;
@@ -504,6 +524,7 @@ td.product-quantity .quantity input {
 table.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents {
   width: 100%;
 }
+<<<<<<< .mine
 .glo-cart-coupon{
   text-align:end;
 }
@@ -555,3 +576,56 @@ abbr.required{
   color: red;
 }
 /* thanh toan end */
+=======
+/* cart end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> .theirs

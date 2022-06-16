@@ -23,7 +23,7 @@ get_header( 'shop' ); ?>
     <div class="product-box category-product-page">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 shop-title">
                     <?php
 					/**
 					 * Hook: woocommerce_before_main_content.
@@ -51,6 +51,22 @@ get_header( 'shop' ); ?>
 						do_action( 'woocommerce_archive_description' );
 						?>
                     </header>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
+                    <div class="sidebar">
+                        <?php
+						/**
+						 * Hook: woocommerce_sidebar.
+						 *
+						 * @hooked woocommerce_get_sidebar - 10
+						 */
+						do_action( 'woocommerce_sidebar' ); 
+						?>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9">
                     <?php
 					if ( woocommerce_product_loop() ) {
 
@@ -103,18 +119,7 @@ get_header( 'shop' ); ?>
 					do_action( 'woocommerce_after_main_content' ); ?>
 
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
-                    <div class="sidebar">
-                        <?php
-						/**
-						 * Hook: woocommerce_sidebar.
-						 *
-						 * @hooked woocommerce_get_sidebar - 10
-						 */
-						do_action( 'woocommerce_sidebar' ); 
-						?>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>

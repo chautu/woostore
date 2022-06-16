@@ -36,13 +36,13 @@
     <div class="header-top">
         <div class="container glo-container">
             <div class="row align-items-center py-3 px-xl-5">
-                <div class="col-lg-2 d-none d-lg-block">
-                    <a href="" class="text-decoration-none">
-                        <h1 class="m-0 display-5 font-weight-semi-bold text-while"><span
-                                class="text-while font-weight-bold border px-3 mr-1">G</span>Shop</h1>
+                <div class="col-lg-3 d-none d-lg-block header-logo">
+                    <a href="<?php bloginfo('url'); ?>" class="text-decoration-none">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/Logo-retina.png"
+                            alt="<?php bloginfo('name'); ?>">
                     </a>
                 </div>
-                <div class="col-lg-6 col-6 text-left">
+                <div class="col-lg-5 col-6 text-left">
                     <form action="">
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Search for products">
@@ -84,6 +84,7 @@
                         <h6 class="m-0">ALL DEPARTMENTS</h6>
                         <i class="fa fa-angle-down text-dark"></i>
                     </a>
+                    <!-- <?php get_template_part('menu-product'); ?> -->
                 </div>
                 <div class="col-lg-9">
                     <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
@@ -134,19 +135,3 @@
             </div>
         </div>
     </div>
-
-    <!-- Navbar Start -->
-    <div class="header-content">
-        <div class="container glo-container mb-5">
-            <div class="row border-top px-xl-5">
-                <div class="col-lg-3 d-none d-lg-block sidebar-contain">
-                    <?php get_template_part('menu-product'); ?>
-                </div>
-                <div class="col-lg-9">
-                    <?php get_template_part('banner'); ?>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Navbar End -->
