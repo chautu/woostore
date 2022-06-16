@@ -29,7 +29,62 @@
   border-style: solid;
   border-color: #e1e1e1;
 }
-
+.glo-input{
+  border: 1px solid #e1e1e1;
+  padding: 8px;
+  border-radius: 5px;
+}
+input{
+  border: 1px solid #e1e1e1;
+  padding: 8px;
+  border-radius: 5px;
+}
+select{ 
+  border: 1px solid #e1e1e1;
+  padding: 8px;
+  border-radius: 5px;
+}
+select:focus-visible{ 
+  border: 1px solid #e1e1e1;
+  padding: 8px;
+  border-radius: 5px;
+  outline: 0;
+  box-shadow: none;
+}
+input:focus-visible{
+  border: 1px solid #e1e1e1;
+  padding: 8px;
+  border-radius: 5px;
+  outline: 0;
+  box-shadow: none;
+}
+button:focus-visible{
+  box-shadow: none;
+  outline: 0;
+  border: 1px solid #96b416;
+}
+input:active{
+  border: 1px solid #e1e1e1;
+  padding: 8px;
+  border-radius: 5px;
+}
+textarea{
+  border: 1px solid #e1e1e1;
+  padding: 8px;
+  border-radius: 5px;
+}
+textarea:focus-visible{
+  border: 1px solid #e1e1e1;
+  padding: 8px;
+  border-radius: 5px;
+  outline: 0;
+  box-shadow: none;
+}
+textarea:active{
+  border: 1px solid #e1e1e1;
+  padding: 8px;
+  border-radius: 5px;
+}
 .text-while {
   color: #fff;
 }
@@ -449,4 +504,54 @@ td.product-quantity .quantity input {
 table.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents {
   width: 100%;
 }
+.glo-cart-coupon{
+  text-align:end;
+}
+.cart_totals h2:after{
+  content: unset;
+  border: unset;
+}
+.cart_totals h2{
+  text-align:center;
+}
+.cart-collaterals table.shop_table.shop_table_responsive{
+  text-align: end;
+  width: 100%;
+}
+.wc-proceed-to-checkout.mt-4.text-end{
+  text-align:end;
+}
+.checkout-button.glo-button.wc-forward:hover{
+  color: #fff;
+  text-decoration: none;
+}
+.woocommerce-cart-form .border{
+  height: 100%;
+}
 /* cart end */
+/* thanh toan start */
+.glo-woocommerce-checkout .form-row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.glo-woocommerce-checkout label{
+  width: 100%;
+}
+.woocommerce-input-wrapper{
+  width: 100%;
+}
+.glo-woocommerce-checkout .woocommerce-input-wrapper input{
+  width: 100%;
+}
+textarea#order_comments{
+  width: 100%;
+  min-height:100px;
+}
+.woocommerce-checkout .border{
+  height: 100%;
+}
+abbr.required{
+  text-decoration: none;
+  color: red;
+}
+/* thanh toan end */

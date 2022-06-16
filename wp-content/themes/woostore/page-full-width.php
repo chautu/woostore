@@ -6,8 +6,8 @@
 <?php get_header(); ?>
 <div id="content">
     <div class="product-box glo-page-category">
-        <div class="container">
-            <div class="row">
+        <div class="container  glo-container">
+            <div class="row px-xl-5">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <?php if (have_posts()) : ?>
                     <?php while (have_posts()) : the_post(); ?>
