@@ -19,7 +19,7 @@
 defined( 'ABSPATH' ) || exit;
 
 get_header( 'shop' ); ?>
-<div id="content" class="shop-content ">
+<div id="content" class="shop-content">
     <div class="product-box category-product-page">
         <div class="container glo-container glo-swiper-container px-xl-5">
             <div class="row m-0">
