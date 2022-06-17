@@ -13,8 +13,13 @@
   border: 1px solid #96b416;
   border-radius: 25px;
 }
-/* header start */
-
+/* / header start / */
+#content{
+  z-index: 100;
+  background: white;
+    /* position: absolute; */
+    border-top: 1px solid #ededed;
+}
 .header-top {
   background: #96b416;
   background-color: #96b416;
@@ -284,9 +289,9 @@ li.sidebar-category-li > img {
   border-top: 1px solid #ededed;
 }
 
-/* header end */
+/* / header end /
 
-/* shop start */
+/ shop start / */
 .category-product-page {
   padding-top: 30px;
 }
@@ -339,7 +344,7 @@ li.sidebar-category-li > img {
 form.woocommerce-ordering {
   margin-bottom: 20px;
 }
-/* shop end */
+/* / shop end / */
 
 /*slider start */
 .glo-container .swiper {
@@ -397,7 +402,7 @@ form.woocommerce-ordering {
 .glo-swiper-img {
   position: relative;
 }
-/* slide end */
+/* / slide end / */
 
 /* content home  start*/
 
@@ -421,7 +426,7 @@ img.thumnail.wp-post-image {
   top: 0;
   font-size: 12px;
 }
-/* widget start */
+/* / widget start / */
 .glo-widget-position-relative {
   position: relative;
 }
@@ -456,8 +461,8 @@ img.alignnone.size-full.wp-image-93 {
   transform: scale(1.15);
   transition: all 0.7s ease-in-out;
 }
-/* widget end */
-/* product strart */
+/* / widget end /
+/ product strart / */
 .glo-h2-title {
   color: #222222;
   font-family: "Dosis", Sans-serif;
@@ -542,8 +547,8 @@ a.nav-link{
   color: black;
 }
 
-/* product end */
-/* cart start */
+/* / product end /
+/ cart start / */
 label.screen-reader-text {
   display: none;
 }
@@ -602,8 +607,8 @@ table.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents {
 .woocommerce-cart-form .border {
   height: 100%;
 }
-/* cart end */
-/* thanh toan start */
+/* / cart end /
+/ thanh toan start / */
 .glo-woocommerce-checkout .form-row {
   margin-left: 0px;
   margin-right: 0px;
@@ -646,8 +651,8 @@ p#mailpoet_woocommerce_checkout_optin_field {
 .form-row.place-order {
   margin: 0px;
 }
-/* thanh toan end */
-/* banner start */
+/* / thanh toan end / */
+/* / banner start / */
 .row.glo-server {
   width: 100%;
 }
@@ -695,4 +700,3 @@ p.glo-barner-server-text {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-/* banner end */

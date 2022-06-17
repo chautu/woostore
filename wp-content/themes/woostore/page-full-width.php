@@ -4,8 +4,8 @@
 
 
 <?php get_header(); ?>
-<div id="content">
-    <div class="product-box glo-page-category pt-5 px-xl-5">
+<div id="content" class=" ">
+    <div class="product-box  glo-page-category pt-5 px-xl-5">
         <div class="container  glo-container">
             <div class="row px-xl-5">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
