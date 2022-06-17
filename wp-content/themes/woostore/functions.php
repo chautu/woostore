@@ -136,3 +136,11 @@ return $fields;
 // function add_pagination_product(){
 //     echo '<img src="https://dlu.edu.vn/wp-content/uploads/2021/02/banner-bac-sau-dai-hox-scaled.jpg" alt="banner" />';
 // }
+
+function custom_remove_acction_woo(){
+    remove_action('woocommerce_before_main_content','woocommerce_breadcrumb',20);
+    remove_action('woocommerce_sidebar','woocommerce_get_sidebar',10);
+    remove_action('woocommerce_before_single_product_summary','woocommerce_show_product_sale_flash',10);
+    remove_action('woocommerce_single_product_summary','woocommerce_template_single_meta',40);
+}
+add_action('init', 'custom_remove_acction_woo'); 

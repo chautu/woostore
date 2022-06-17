@@ -13,12 +13,12 @@
   border: 1px solid #96b416;
   border-radius: 25px;
 }
-/* / header start / */
-#content{
+/* / / header start / / */
+#content {
   z-index: 100;
   background: white;
-    /* position: absolute; */
-    border-top: 1px solid #ededed;
+  /* / position: absolute; / */
+  border-top: 1px solid #ededed;
 }
 .header-top {
   background: #96b416;
@@ -346,7 +346,7 @@ li.sidebar-category-li > img {
 form.woocommerce-ordering {
   margin-bottom: 20px;
 }
-/* / shop end / */
+/* / / shop end / / */
 
 /*slider start */
 .glo-container .swiper {
@@ -403,7 +403,7 @@ form.woocommerce-ordering {
 .glo-swiper-img {
   position: relative;
 }
-/* / slide end / */
+/* / / slide end / / */
 
 /* content home  start*/
 
@@ -427,7 +427,7 @@ img.thumnail.wp-post-image {
   top: 0;
   font-size: 12px;
 }
-/* / widget start / */
+/* / / widget start / / */
 .glo-widget-position-relative {
   position: relative;
 }
@@ -652,8 +652,8 @@ p#mailpoet_woocommerce_checkout_optin_field {
 .form-row.place-order {
   margin: 0px;
 }
-/* / thanh toan end / */
-/* / banner start / */
+/* / / thanh toan end / /
+/ / banner start / / */
 .row.glo-server {
   width: 100%;
 }
@@ -701,7 +701,7 @@ p.glo-barner-server-text {
   border-top-right-radius: 10px;
 }
 
-/* banner end */
+/* / banner end / */
 
 .h-all-department {
   background: #fff;
@@ -728,4 +728,58 @@ button.h-all-department#dropdownMenuButton {
 
 .h-button-dropdowm {
   align-self: center;
+}
+p.comment-form-comment label {
+  width: 100%;
+}
+div#primary{
+  width: 100%;
+}
+button.single_add_to_cart_button.button.alt{
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #96b416;
+  border-radius: 100px 100px 100px 100px;
+  padding: 11px 20px 11px 20px;
+  border: 1px solid #96b416;
+  box-shadow: unset;
+  margin-top: 10px;
+}
+button.single_add_to_cart_button.button.alt:focus{
+  border: 1px solid #96b416;
+  box-shadow: unset;
+}
+textarea#comment {
+  width: 100%;
+}
+input#submit{
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #96b416;
+  border-radius: 100px 100px 100px 100px;
+  padding: 11px 20px 11px 20px;
+  border: 1px solid #96b416;
+  box-shadow: unset;
+  margin-top: 10px;
+}
+h2.woocommerce-Reviews-title::before{
+  border: unset;
+  content: unset;
+}
+h2.woocommerce-Reviews-title::after{
+  border: unset;
+}
+.related.products h2::before{
+  border: unset;
+  content: unset;
+}
+.related.products h2::after{
+  border: unset;
+}
+.woocommerce-product-gallery__image {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ededed;
 }
