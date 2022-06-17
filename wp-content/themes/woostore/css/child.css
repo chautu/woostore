@@ -136,12 +136,16 @@ textarea:active {
   text-decoration: none;
 }
 
-.main-menu ul li a:hover,
+.main-menu .header-menu ul li a:hover,
 a:active {
   color: #96b416;
 }
 
-.main-menu ul li a:active {
+.main-menu .header-menu ul li a:active {
+  color: #96b416;
+}
+
+.main-menu .header-menu ul li a:focus {
   color: #96b416;
 }
 
@@ -240,7 +244,7 @@ li.sidebar-category-li > img {
   border-width: 10px 10px 10px 10px;
   border-color: #ffffff;
   box-shadow: 0px 4px 12px 0px rgb(0 0 0 / 12%);
-  margin: 10px 10px 10px 10px;
+  margin: 10px 0px 10px 0px;
   border-radius: 10px 10px 10px 10px;
 }
 
@@ -282,14 +286,12 @@ li.sidebar-category-li > img {
   border-bottom: 1px solid#f69946;
 }
 
-.shop-content {
+/* .shop-content {
   z-index: 100;
   background: white;
   position: absolute;
   border-top: 1px solid #ededed;
 }
-
-/* / header end /
 
 / shop start / */
 .category-product-page {
@@ -351,7 +353,6 @@ form.woocommerce-ordering {
   width: 100%;
   height: 100%;
 }
-
 
 .swiper-slide {
   text-align: center;
@@ -543,7 +544,7 @@ ul.nav.nav-tabs {
   text-transform: none;
   line-height: 1.3em;
 }
-a.nav-link{
+a.nav-link {
   color: black;
 }
 
@@ -658,12 +659,12 @@ p#mailpoet_woocommerce_checkout_optin_field {
 }
 
 .glo-barner-server-icon {
-  color: #F69946;
-  font-size:50px;
+  color: #f69946;
+  font-size: 50px;
 }
 
 .glo-barner-server {
-  width: calc( 100% - 80px);
+  width: calc(100% - 80px);
   padding-left: 10px;
 }
 p.glo-barner-server-title {
@@ -672,7 +673,7 @@ p.glo-barner-server-title {
   font-weight: 600;
   text-transform: uppercase;
   line-height: 22px;
-  color: #96B416;
+  color: #96b416;
   margin-bottom: 0;
 }
 p.glo-barner-server-text {
@@ -686,17 +687,45 @@ p.glo-barner-server-text {
 }
 .row.m-0.glo-server {
   padding: 35px 50px 35px 50px;
-  background: #F9F9F9;
-  
+  background: #f9f9f9;
 }
-.border-bottom{
+.border-bottom {
   border-bottom: 1px solid #edededed;
 }
-.glo-border-radius-bottom{
+.glo-border-radius-bottom {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-.glo-border-radius-top{
+.glo-border-radius-top {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+}
+
+/* banner end */
+
+.h-all-department {
+  background: #fff;
+  border: none;
+}
+
+button.h-all-department#dropdownMenuButton:focus {
+  background: #fff;
+  border: none;
+  box-shadow: none;
+}
+button.h-all-department#dropdownMenuButton {
+  background: #fff;
+  border: none;
+}
+
+.col-lg-3.d-none.d-lg-block {
+  align-items: center;
+  align-self: center;
+}
+.h-drop-menu-li ul li {
+  list-style-type: none;
+}
+
+.h-button-dropdowm {
+  align-self: center;
 }

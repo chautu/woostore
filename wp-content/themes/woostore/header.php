@@ -76,9 +76,9 @@
 
     <div class="header-under">
         <div class="container px-xl-5">
-            <div class="row border-top  ">
-                <div class="col-lg-3 d-none d-lg-block">
-                    <a class="btn shadow-none d-flex align-items-center justify-content-between text-white w-100"
+            <div class="row border-top">
+                <div class="col-lg-3 h-button-dropdowm">
+                    <!-- <a class="btn shadow-none d-flex align-items-center justify-content-between text-white w-100"
                         data-toggle="collapse" href="#navbar-vertical" id="test-ca"
                         style="height: 65px; margin-top: -1px; padding: 0 30px;">
                         <h6 class="m-0">ALL DEPARTMENTS</h6>
@@ -88,6 +88,20 @@
                         id="navbar-vertical">
                         <div class="navbar-nav w-100 overflow-hidden sidebar-nav" style="height: 630px;">
                             <div class="menu-category">
+                                
+                            </div>
+                        </div>
+                    </nav> -->
+                    <div class="dropdown">
+                        <button
+                            class="btn btn-secondary h-all-department dropdown-toggle align-items-center justify-content-between"
+                            type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            ALL DEPARTMENTS
+                        </button>
+                        <div class="dropdown-menu sidebar-contain" aria-labelledby="dropdownMenuButton">
+
+                            <div class="menu-category h-drop-menu-li">
                                 <?php wp_nav_menu( 
                                     array( 
                                         'theme_location' => 'category-product-menu', //id tạo menu
@@ -98,8 +112,8 @@
                                 ); ?>
                             </div>
                         </div>
-                    </nav>
 
+                    </div>
                 </div>
                 <div class="col-lg-9">
                     <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
@@ -147,6 +161,8 @@
                         </div>
                     </nav>
                 </div>
+
             </div>
+
         </div>
     </div>

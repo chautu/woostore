@@ -1,3 +1,4 @@
+<<<<<<< .mine
 $('#test-ca').click(function () {
     document.getElementById("navbar-vertical").style.zIndex = "100000";
 });
@@ -13,3 +14,20 @@ $(document).ready(function() {
     //   alert("your url contains the name franky");
     // }
 });
+=======
+// $('#test-ca').click(function () {
+//     document.getElementById("navbar-vertical").style.zIndex = "100000";
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> .theirs
