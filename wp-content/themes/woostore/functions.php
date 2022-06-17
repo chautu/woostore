@@ -131,8 +131,10 @@ function custom_override_checkout_fields( $fields ) {
 return $fields;
 }
 
-// add_action('woocommerce_before_main_content', 'add_image_head_product_list', 10);
-
-// function add_pagination_product(){
-//     echo '<img src="https://dlu.edu.vn/wp-content/uploads/2021/02/banner-bac-sau-dai-hox-scaled.jpg" alt="banner" />';
+// remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
+// add_action( 'init', 'wpcb_remove_default_sorting_storefront' );
+  
+// function wpcb_remove_default_sorting_storefront() {
+//    remove_action( 'woocommerce_after_shop_loop', 'woocommerce_catalog_ordering', 10 );
+//    remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 10 );
 // }

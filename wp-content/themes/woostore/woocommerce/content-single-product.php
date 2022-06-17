@@ -13,38 +13,41 @@
  * @see     https://docs.woocommerce.com/document/template-structure/
  * @package WooCommerce\Templates
  * @version 3.6.0
- */
+ * <?php wc_product_class( '', $product ); ?>
+*/
 
 defined( 'ABSPATH' ) || exit;
 
 global $product;
 
 /**
- * Hook: woocommerce_before_single_product.
- *
- * @hooked woocommerce_output_all_notices - 10
- */
+* Hook: woocommerce_before_single_product.
+*
+* @hooked woocommerce_output_all_notices - 10
+*/
 do_action( 'woocommerce_before_single_product' );
 
 if ( post_password_required() ) {
-	echo get_the_password_form(); // WPCS: XSS ok.
-	return;
+echo get_the_password_form(); // WPCS: XSS ok.
+return;
 }
 ?>
-<div id="product-<?php the_ID(); ?>" <?php wc_product_class( '', $product ); ?>>
 
-	<?php
+<div id="product-<?php the_ID(); ?>">
+
+    <?php
 	/**
 	 * Hook: woocommerce_before_single_product_summary.
 	 *
 	 * @hooked woocommerce_show_product_sale_flash - 10
 	 * @hooked woocommerce_show_product_images - 20
 	 */
+	
 	do_action( 'woocommerce_before_single_product_summary' );
 	?>
 
-	<div class="summary entry-summary">
-		<?php
+    <div class="summary entry-summary">
+        <?php
 		/**
 		 * Hook: woocommerce_single_product_summary.
 		 *
@@ -59,9 +62,9 @@ if ( post_password_required() ) {
 		 */
 		do_action( 'woocommerce_single_product_summary' );
 		?>
-	</div>
+    </div>
 
-	<?php
+    <?php
 	/**
 	 * Hook: woocommerce_after_single_product_summary.
 	 *

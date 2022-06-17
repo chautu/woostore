@@ -14,11 +14,11 @@
   border-radius: 25px;
 }
 /* / header start / */
-#content{
+#content {
   z-index: 100;
   background: white;
-    /* position: absolute; */
-    border-top: 1px solid #ededed;
+  /* position: absolute; */
+  border-top: 1px solid #ededed;
 }
 .header-top {
   background: #96b416;
@@ -119,7 +119,7 @@ textarea:active {
 }
 
 .header-menu {
-  margin-top: 1rem;
+  margin-top: 0.8rem;
 }
 
 .main-menu ul li {
