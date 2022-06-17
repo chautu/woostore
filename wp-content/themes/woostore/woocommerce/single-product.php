@@ -19,6 +19,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
+
+//  Omit closing PHP tag at the end of PHP files to avoid "headers already sent" issues. 
+
 get_header( 'shop' ); ?>
 <div id="content">
     <div class="product-box category-product-page">
@@ -63,3 +66,5 @@ get_header( 'shop' ); ?>
         </div>
     </div>
 </div>
+
+<?php get_footer( 'shop' ); ?>

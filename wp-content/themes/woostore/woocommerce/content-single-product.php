@@ -13,22 +13,23 @@
  * @see     https://docs.woocommerce.com/document/template-structure/
  * @package WooCommerce\Templates
  * @version 3.6.0
- */
+ * <?php wc_product_class( '', $product ); ?>
+*/
 
 defined( 'ABSPATH' ) || exit;
 
 global $product;
 
 /**
- * Hook: woocommerce_before_single_product.
- *
- * @hooked woocommerce_output_all_notices - 10
- */
+* Hook: woocommerce_before_single_product.
+*
+* @hooked woocommerce_output_all_notices - 10
+*/
 do_action( 'woocommerce_before_single_product' );
 
 if ( post_password_required() ) {
-	echo get_the_password_form(); // WPCS: XSS ok.
-	return;
+echo get_the_password_form(); // WPCS: XSS ok.
+return;
 }
 ?>
 <div id="product-<?php the_ID(); ?>" >
@@ -66,10 +67,7 @@ if ( post_password_required() ) {
 		</div>
 	</div>
 
-
-	
-
-	<?php
+    <?php
 	/**
 	 * Hook: woocommerce_after_single_product_summary.
 	 *

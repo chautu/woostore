@@ -13,7 +13,9 @@
   border: 1px solid #96b416;
   border-radius: 25px;
 }
-/* / / header start / / */
+
+
+/* / header start / */
 #content {
   z-index: 100;
   background: white;
@@ -119,7 +121,7 @@ textarea:active {
 }
 
 .header-menu {
-  margin-top: 1rem;
+  margin-top: 0.8rem;
 }
 
 .main-menu ul li {
